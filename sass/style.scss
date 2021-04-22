@@ -1,8 +1,7 @@
-header{
-    border: 1px solid white;
-    nav{
-        padding: 15px;
-
-        
-    }
-}
+@import "layout/header";
+@import "layout/base";
+@import "layout/variables";
+@import "sections/basketball";
+@import "sections/football";
+@import "sections/mma";
+@import "sections/tennis";

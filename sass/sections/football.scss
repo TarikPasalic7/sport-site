@@ -1,0 +1,29 @@
+section.football{
+
+    h1{
+
+        font-size: 68px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        background-image: -webkit-linear-gradient(142deg,#a2fe73,#35fdb2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: hue 10s linear;
+        text-shadow: 3px 2px 1px ;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@-webkit-keyframes hue {
+
+    from{
+        -webkit-filter: hue-rotate(0deg);
+    }
+    from{
+        -webkit-filter: hue-rotate(-368deg);
+    }
+}

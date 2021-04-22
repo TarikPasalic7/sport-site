@@ -1,0 +1,54 @@
+header{
+    background-color: rgb(237, 225, 225);
+
+}
+nav{
+    padding: 15px;
+    position: sticky;
+    z-index: 2;
+}
+
+
+ul{
+
+   list-style: none;
+   
+   li{
+       display: inline-block;
+      margin-left: 25px;
+      position: relative;
+      top: -10px;
+      &:first-child{
+          top: -6px;
+        a:hover{
+            &:after{
+                display: none;
+            }
+        }
+    }
+
+       a{
+           color: rgb(49, 37, 15);
+           font-size: 16px;
+           text-transform: uppercase;
+           text-decoration: none;
+           font-family: fantasy;
+           position: relative;
+     
+
+           &:hover{
+               &:after{
+                   display: block;
+               }
+           }
+           &:after {
+               content: "";
+               display: none;
+               background-color: rgb(27, 27, 26);
+               height: 2px;
+               width: 100%;
+               position: absolute;
+           }
+       }
+   }
+}
