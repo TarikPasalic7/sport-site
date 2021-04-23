@@ -3,8 +3,11 @@ header {
 
 nav {
   padding: 15px;
-  position: sticky;
-  z-index: 2; }
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  background-color: lightblue; }
 
 ul {
   list-style: none; }
