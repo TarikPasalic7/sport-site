@@ -259,3 +259,10 @@ section.tennis {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+
+footer {
+  height: 100px;
+  background-color: lightblue; }
+  footer div h3 {
+    padding: 20px;
+    text-align: center; }
